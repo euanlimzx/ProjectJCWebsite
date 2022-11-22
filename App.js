@@ -1,20 +1,22 @@
-import { StatusBar } from 'expo-status-bar';
-import { StyleSheet, Text, View } from 'react-native';
+import { StatusBar } from "expo-status-bar";
+import { StyleSheet, Text, View } from "react-native";
+import { HomeScreen } from "./screens/homescreen";
+
+import {
+  useFonts as useGaramond,
+  EBGaramond_500Medium,
+} from "@expo-google-fonts/eb-garamond";
 
 export default function App() {
+  let [garamondLoaded] = useGaramond({ EBGaramond_500Medium });
+
+  if (!garamondLoaded) {
+    return null;
+  }
+
   return (
-    <View style={styles.container}>
-      <Text>Open up App.js to start working on your app!</Text>
-      <StatusBar style="auto" />
+    <View>
+      <HomeScreen />
     </View>
   );
 }
-
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    backgroundColor: '#fff',
-    alignItems: 'center',
-    justifyContent: 'center',
-  },
-});
