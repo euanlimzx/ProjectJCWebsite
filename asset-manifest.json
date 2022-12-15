@@ -1,11 +1,11 @@
 {
   "files": {
-    "app.js": "/ProjectJCWebsite/static/js/app.5f26545e.chunk.js",
-    "app.js.map": "/ProjectJCWebsite/static/js/app.5f26545e.chunk.js.map",
+    "app.js": "/ProjectJCWebsite/static/js/app.c2d1dc63.chunk.js",
+    "app.js.map": "/ProjectJCWebsite/static/js/app.c2d1dc63.chunk.js.map",
     "runtime~app.js": "/ProjectJCWebsite/static/js/runtime~app.a2eb58e5.js",
     "runtime~app.js.map": "/ProjectJCWebsite/static/js/runtime~app.a2eb58e5.js.map",
-    "static/js/2.56cc5d81.chunk.js": "/ProjectJCWebsite/static/js/2.56cc5d81.chunk.js",
-    "static/js/2.56cc5d81.chunk.js.map": "/ProjectJCWebsite/static/js/2.56cc5d81.chunk.js.map",
+    "static/js/2.c52606b4.chunk.js": "/ProjectJCWebsite/static/js/2.c52606b4.chunk.js",
+    "static/js/2.c52606b4.chunk.js.map": "/ProjectJCWebsite/static/js/2.c52606b4.chunk.js.map",
     "fonts/EBGaramond_400Regular.ttf": "/ProjectJCWebsite/./fonts/EBGaramond_400Regular.ttf",
     "fonts/EBGaramond_400Regular_Italic.ttf": "/ProjectJCWebsite/./fonts/EBGaramond_400Regular_Italic.ttf",
     "fonts/EBGaramond_500Medium.ttf": "/ProjectJCWebsite/./fonts/EBGaramond_500Medium.ttf",
@@ -16,17 +16,18 @@
     "fonts/EBGaramond_700Bold_Italic.ttf": "/ProjectJCWebsite/./fonts/EBGaramond_700Bold_Italic.ttf",
     "fonts/EBGaramond_800ExtraBold.ttf": "/ProjectJCWebsite/./fonts/EBGaramond_800ExtraBold.ttf",
     "fonts/EBGaramond_800ExtraBold_Italic.ttf": "/ProjectJCWebsite/./fonts/EBGaramond_800ExtraBold_Italic.ttf",
+    "fonts/MaterialCommunityIcons.ttf": "/ProjectJCWebsite/./fonts/MaterialCommunityIcons.ttf",
     "favicon-16.png": "/ProjectJCWebsite/favicon-16.png",
     "favicon-32.png": "/ProjectJCWebsite/favicon-32.png",
     "favicon.ico": "/ProjectJCWebsite/favicon.ico",
     "index.html": "/ProjectJCWebsite/index.html",
     "manifest.json": "/ProjectJCWebsite/manifest.json",
     "serve.json": "/ProjectJCWebsite/serve.json",
-    "static/js/2.56cc5d81.chunk.js.LICENSE.txt": "/ProjectJCWebsite/static/js/2.56cc5d81.chunk.js.LICENSE.txt"
+    "static/js/2.c52606b4.chunk.js.LICENSE.txt": "/ProjectJCWebsite/static/js/2.c52606b4.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime~app.a2eb58e5.js",
-    "static/js/2.56cc5d81.chunk.js",
-    "static/js/app.5f26545e.chunk.js"
+    "static/js/2.c52606b4.chunk.js",
+    "static/js/app.c2d1dc63.chunk.js"
   ]
 }
