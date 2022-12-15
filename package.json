@@ -1,4 +1,5 @@
 {
+  "homepage": "http://euanlimzx.github.io/ProjectJCWebsite",
   "name": "projectjcwebsite",
   "version": "1.0.0",
   "main": "node_modules/expo/AppEntry.js",
@@ -6,7 +7,9 @@
     "start": "expo start",
     "android": "expo start --android",
     "ios": "expo start --ios",
-    "web": "expo start --web"
+    "web": "expo start --web",
+    "deploy": "gh-pages -d web-build",
+    "predeploy": "expo export:web"
   },
   "dependencies": {
     "@expo-google-fonts/eb-garamond": "^0.2.2",
@@ -16,10 +19,13 @@
     "react": "18.1.0",
     "react-dom": "18.1.0",
     "react-native": "0.70.5",
+    "react-native-gesture-handler": "^2.8.0",
+    "react-native-paper": "^5.0.1",
     "react-native-web": "~0.18.9"
   },
   "devDependencies": {
-    "@babel/core": "^7.12.9"
+    "@babel/core": "^7.12.9",
+    "gh-pages": "^4.0.0"
   },
   "private": true
 }

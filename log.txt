@@ -1,0 +1,2 @@
+npm install react-native-reanimated-carousel
+npm install --save react-native-gesture-handler
